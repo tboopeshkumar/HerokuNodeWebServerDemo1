@@ -48,6 +48,13 @@ app.get('/bad', (req,res) => {
     })
 });
 
+app.get('/projects',(req,res)=>{
+
+    res.render('projects.hbs',{
+        title : 'Projects'
+    })
+});
+
 app.get('/home', (req, res) => {
    
 })
